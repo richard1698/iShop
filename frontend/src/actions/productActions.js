@@ -15,5 +15,5 @@ const listProducts = () => async (dispatch) => {
     dispatch({ type: PRODUCT_LIST_FAIL, payload: error.message });
   }
 };
-//pruebas domingo
+//pruebas domingo jeje
 export { listProducts };
